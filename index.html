@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex By Fany Estrada</title>
+    <link rel="stylesheet" href="./pokedex.css">
+
+</head>
+
+<body>
+    
+    <h1>My Pokedex</h1>
+    <br>
+    
+    <div class="containerImage">
+        <img src="https://th.bing.com/th/id/R.f8335abfc56c2a665ca700c0c24a68a5?rik=cPw9XfRViBl%2fAw&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-17015278258769okdi.png&ehk=ZObEl6aULt73fNjpSv9FEjjS9WX41vbj%2bjLpq6ENqIs%3d&risl=&pid=ImgRaw&r=0"
+            alt="Pokemon" id="pokeImg" width="350px"><br><br>
+    </div>
+    <div class="containerName">
+        <h2 id="title">¡Bienvenido!</h2>
+    </div>
+    <div class="results">
+        <h4>Tipo:</h4>
+        <p id="type"></p>
+        <h4>Estadísticas: </h4>
+        <p id="statistics"></p>
+        <h4>Movimientos: </h4>
+        <p id="moves"></p>
+    </div>
+    <div class="data">
+        <input class="input" type="text" placeholder="Nombre del pokemón" id="pokemon" name="pokemon">
+        <button class="button" onclick="fetchPokemon()">Ver</button><br><br>
+
+    </div>
+
+ 
+</body>
+<footer>
+    <script src="./pokemones.js"></script>
+</footer>
+
+</html>
